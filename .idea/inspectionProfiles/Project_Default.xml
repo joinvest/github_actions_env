@@ -1,0 +1,102 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="315" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://docs.python.org" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="34">
+            <item index="0" class="java.lang.String" itemvalue="pydantic" />
+            <item index="1" class="java.lang.String" itemvalue="flask-pydantic" />
+            <item index="2" class="java.lang.String" itemvalue="zipp" />
+            <item index="3" class="java.lang.String" itemvalue="certifi" />
+            <item index="4" class="java.lang.String" itemvalue="virtualenv" />
+            <item index="5" class="java.lang.String" itemvalue="distlib" />
+            <item index="6" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="7" class="java.lang.String" itemvalue="keyring" />
+            <item index="8" class="java.lang.String" itemvalue="idna" />
+            <item index="9" class="java.lang.String" itemvalue="poetry" />
+            <item index="10" class="java.lang.String" itemvalue="coverage" />
+            <item index="11" class="java.lang.String" itemvalue="fastapi" />
+            <item index="12" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="13" class="java.lang.String" itemvalue="poetry-core" />
+            <item index="14" class="java.lang.String" itemvalue="html5lib" />
+            <item index="15" class="java.lang.String" itemvalue="clikit" />
+            <item index="16" class="java.lang.String" itemvalue="ptyprocess" />
+            <item index="17" class="java.lang.String" itemvalue="packaging" />
+            <item index="18" class="java.lang.String" itemvalue="pexpect" />
+            <item index="19" class="java.lang.String" itemvalue="lockfile" />
+            <item index="20" class="java.lang.String" itemvalue="pastel" />
+            <item index="21" class="java.lang.String" itemvalue="tomlkit" />
+            <item index="22" class="java.lang.String" itemvalue="filelock" />
+            <item index="23" class="java.lang.String" itemvalue="platformdirs" />
+            <item index="24" class="java.lang.String" itemvalue="cachy" />
+            <item index="25" class="java.lang.String" itemvalue="pylev" />
+            <item index="26" class="java.lang.String" itemvalue="pkginfo" />
+            <item index="27" class="java.lang.String" itemvalue="CacheControl" />
+            <item index="28" class="java.lang.String" itemvalue="cleo" />
+            <item index="29" class="java.lang.String" itemvalue="msgpack" />
+            <item index="30" class="java.lang.String" itemvalue="webencodings" />
+            <item index="31" class="java.lang.String" itemvalue="crashtest" />
+            <item index="32" class="java.lang.String" itemvalue="requests-toolbelt" />
+            <item index="33" class="java.lang.String" itemvalue="shellingham" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pika-stubs==0.1.3" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
