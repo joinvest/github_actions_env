@@ -10,7 +10,7 @@ env:
 jobs:
   test:
     env:
-      MONDODB_CLUSTERNAME: cluster1.1sa1unt.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster1.1sa1unt.mongodb.net
       MONGODB_USERNAME: bigjoe1992111
       MONGODB_PASSWORD: joe28572418
       PORT: 8080
