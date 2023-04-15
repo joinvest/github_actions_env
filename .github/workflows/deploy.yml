@@ -11,7 +11,7 @@ jobs:
   test:
     env:
       MONDODB_CLUSTERNAME: cluster1.1sa1unt.mongodb.net
-      MONGODB_USRNAME: joe1992111
+      MONGODB_USRNAME: bigjoe1992111
       MONGODB_PASSWORD: joe28572418
       PORT: 8080
     environment: testing
@@ -28,7 +28,7 @@ jobs:
         run: npm ci
       - name: Run server
         run: |
-          npm start && npx wait-on --timeout 5000 http://127.0.0.1:$PORT
+          npm start & npx wait-on --timeout 5000 http://127.0.0.1:$PORT
       - name: Run tests
         run: npm test
       - name: Output information
